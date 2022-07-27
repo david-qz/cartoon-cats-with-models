@@ -9,10 +9,10 @@ create table cats(
     url varchar,
     year int not null,
     lives int not null default 9,
-    isSidekick boolean not null default false
+    is_sidekick boolean not null default false
 );
 
-insert into cats (name, type, url, year, lives, isSidekick) values
+insert into cats (name, type, url, year, lives, is_sidekick) values
     (
         'Felix',
         'Tuxedo',
